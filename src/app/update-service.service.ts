@@ -13,7 +13,7 @@ export class UpdateServiceService {
   
   
    updateData(formData) {
-    console.log("in Update Data");
-    return "sUCCESS";//this.http.post<String>(this.postURL ,formConfig,{headers:this.header});
+    console.log("in Update Data:"+JSON.stringify(formData));
+    return "SUCCESS";//this.http.post<String>(this.postURL ,formConfig,{headers:this.header});
    }
 }
